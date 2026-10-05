@@ -1,8 +1,8 @@
 export function useHeader() {
     const navegation = [
         {
-            name: 'MONSTERS',
-            path: '/monsters'
+            name: 'BESTIARY',
+            path: '/'
         },
         {
             name: 'QUESTS',

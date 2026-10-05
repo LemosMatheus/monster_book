@@ -1,0 +1,1 @@
+export {Bestiary} from  './bestiary.view'

@@ -1,1 +1,0 @@
-export {MonsterSearch} from  './monster_search.view'

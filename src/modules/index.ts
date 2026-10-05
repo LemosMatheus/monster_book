@@ -1,1 +1,1 @@
-export { Header } from "./pages";
+export { Bestiary, Header } from "./pages";

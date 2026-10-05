@@ -1,11 +1,11 @@
-import { Header } from "./modules";
-
+import { Bestiary, Header } from "./modules";
 
 function App() {
 	return (
-    <main>
-      <Header></Header>
-    </main>
+		<main className="flex items-center flex-col">
+			<Header />
+      <Bestiary />
+		</main>
 	);
 }
 
