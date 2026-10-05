@@ -1,17 +1,10 @@
 import { Button } from "@base-ui/react/button";
 import {NavLink} from 'react-router'
+import { useHeader } from "./header.hook";
 
 export function Header() {
-    const navegation = [
-        {
-            name: 'monsters',
-            path: '/monsters'
-        },
-        {
-            name: 'quests',
-            path: "/quests"
-        }
-    ]
+    const {navegation} = useHeader();
+
     return (
         <header className="w-full h-auto px-6 py-4 flex items-center justify-between bg-white/5 border-[#C8232C]/90 border-b-2 ">
             <div className="flex items-center space-x-3">
